@@ -1,0 +1,29 @@
+@import url("style.css");
+body{
+    --kolor: #F0D8D8;
+	--alizarin: #e32636;
+}
+header{
+    background-color: var(--alizarin);
+}
+section:after {
+	position: absolute;
+	bottom: 0.5em;
+	left: 0.5em;
+	counter-increment: slide;
+	content: counter(slide);
+	display: block;
+	float: right;
+	margin-top: -1em;
+	height: 1.15em;
+	width: 1.15em;
+	background-color: var(--alizarin);
+	color: #fff;
+	font-size: 0.75em;
+	font-style: italic;
+	font-weight: 800;
+	text-align: center;
+	line-height: 1em;
+	}
+	
+	
